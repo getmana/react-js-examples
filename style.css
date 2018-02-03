@@ -1,0 +1,135 @@
+body {
+	background: green;
+}
+
+.counter,
+.timer-box {
+	background: #addd83;
+	padding: 20px;
+}
+
+.red-color {
+	color: red;
+}
+
+.green-color {
+	color: green;
+}
+
+.box-with-colors {
+	max-width: 168px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.box-with-colors div {
+	display: inline-block;
+	width: 56px;
+	text-align: center;
+}
+
+.box-with-colors div.cell-color {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #0b0644;
+}
+
+.colorful-box {
+	width: 162px;
+	height: 162px;
+	border: 1px solid #0b0644;
+	display: inline-block;
+}
+
+.result-color {
+	width: 100%;
+	height: 100%;
+}
+
+.timer-box h2 span {
+	font-size: 60px;
+}
+
+.bang-box {
+	color: red;
+	font-size: 60px;
+}
+
+.calc-screen {
+	background-color: buttonface;
+	width: 210px;
+	height: 40px;
+	margin: 1px;
+	text-align: right;
+	box-sizing: border-box;
+	border: 2px outset buttonface;
+	font-size: 26px;
+	padding: 3px;
+	overflow: hidden;
+}
+
+.left-panel {
+	width: 126px;
+	display: inline-block;
+}
+
+.clear-btns {
+	width: 126px;
+}
+
+.number-box {
+	width: 126px;
+	display: inline-block;
+}
+
+.calc-btn {
+	margin: 1px;
+	display: inline-block;
+}
+
+.calc-btn button {
+	width: 40px;
+	height: 40px;
+}
+
+.number-box .calc-btn:nth-child(10) button {
+	width: 82px;
+}
+
+.signs-box {
+	width: 84px;
+	display: inline-block;
+}
+
+.signs-box .calc-btn:nth-child(9) button {
+	width: 82px;
+}
+
+.popup-wrapper {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+	
+}
+
+.popup {
+	width: 80%;
+	height: 80%;
+	margin: 100px auto;
+	padding: 20px;
+	position: relative;
+}
+
+.popup p {
+	font-size: 26px;
+}
+
+.popup button {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
